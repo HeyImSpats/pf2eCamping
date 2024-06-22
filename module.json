@@ -29,9 +29,9 @@
       "flags": {}
     },
     {
-      "name": "camping-activities",
+      "name": "camping",
       "label": "Camping Activities",
-      "path": "packs/camping-activities",
+      "path": "packs/camping",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -46,7 +46,7 @@
       "name": "Camping",
       "sorting":"m",
       "packs":[
-        "camping-activities",
+        "camping",
         "camping-information"
       ]
     }
