@@ -1,0 +1,56 @@
+{
+  "id": "pf2e-camping",
+  "title": "Pf2e Camping",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "description":"A module for camping activities in non-Kingmaker games.",
+  "url": "",
+  "manifest": "",
+  "download":"",
+  "authors":[
+    {
+      "name":"Spats",
+    "discord": "Spats."
+    }
+  ],
+  "packs": [
+    {
+      "name": "camping-information",
+      "label": "Camping Information",
+      "path": "packs/camping-information",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "camping",
+      "label": "Camping",
+      "path": "packs/camping",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    }
+  ],
+  "flags": {
+        "pf2e-camping":{
+          "pf2e-homebrew":{
+            "featTraits":{
+              "camping":{
+                "label": "Camping",
+                "description": "An activity that can be performed by a character during a camping session. A camping activity usually takes 2 hours to complete."
+              }
+            }
+          }
+        }
+      }
+}
