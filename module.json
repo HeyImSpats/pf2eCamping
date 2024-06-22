@@ -29,9 +29,9 @@
       "flags": {}
     },
     {
-      "name": "camping",
-      "label": "Camping",
-      "path": "packs/camping",
+      "name": "camping-activities",
+      "label": "Camping Activities",
+      "path": "packs/camping-activities",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -39,6 +39,16 @@
       },
       "system": "pf2e",
       "flags": {}
+    }
+  ],
+  "packFolders":[
+    {
+      "name": "Camping",
+      "sorting":"m",
+      "packs":[
+        "camping-activities",
+        "camping-information"
+      ]
     }
   ],
   "flags": {
