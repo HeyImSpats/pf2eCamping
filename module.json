@@ -1,15 +1,15 @@
 {
   "id": "pf2e-camping",
   "title": "Pf2e Camping",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
   },
   "description":"A module for camping activities in non-Kingmaker games.",
-  "url": "",
-  "manifest": "",
-  "download":"",
+  "url": "https://github.com/HeyImSpats/pf2eCamping",
+  "manifest": "https://github.com/HeyImSpats/pf2eCamping/releases/download/1.0.1/module.json",
+  "download":"https://github.com/HeyImSpats/pf2eCamping/releases/download/1.0.1/pf2e-camping.zip",
   "authors":[
     {
       "name":"Spats",
