@@ -30,7 +30,7 @@
     },
     {
       "name": "camping",
-      "label": "Camping",
+      "label": "Camping Activities",
       "path": "packs/camping",
       "type": "Item",
       "ownership": {
@@ -41,6 +41,16 @@
       "flags": {}
     }
   ],
+  "packFolders":[
+    {
+      "name": "Camping",
+      "sorting":"m",
+      "packs":[
+        "camping",
+        "camping-information"
+      ]
+    }
+  ],
   "flags": {
         "pf2e-camping":{
           "pf2e-homebrew":{
@@ -48,6 +58,16 @@
               "camping":{
                 "label": "Camping",
                 "description": "An activity that can be performed by a character during a camping session. A camping activity usually takes 2 hours to complete."
+              }
+            },
+            "equipmentTraits":{
+              "ingredient":{
+                "label":"Ingredient",
+                "description": "An ingredient used for cooking meals, some ingredients are special which have their own specific meals that can be cooked with those specific ingredients for different effects."
+              },
+              "meal":{
+                "label":"Meal",
+                "description": "A meal meant to be eaten immediatley after it is cooked. It won't last very long, but will provide a benefit to those that consume it better than normal Rations would provide."
               }
             }
           }
